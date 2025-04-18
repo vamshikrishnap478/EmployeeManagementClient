@@ -96,4 +96,5 @@ const ChartPopup = ({ show, onClose, data }) => {
   );
 };
 
+
 export default ChartPopup;
