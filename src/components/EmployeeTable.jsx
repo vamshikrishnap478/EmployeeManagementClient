@@ -72,6 +72,7 @@ const EmployeeTable = ({ onDelete }) => {
         setShowEditModal(false);
       })
       .catch(err => console.error('Update failed:', err));
+      window.location.reload();
   };
 
   const handleSelect = (id) => {
