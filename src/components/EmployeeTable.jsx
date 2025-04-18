@@ -70,9 +70,10 @@ const EmployeeTable = ({ onDelete }) => {
         load();
         setEditingEmployee(null);
         setShowEditModal(false);
+        window.location.reload();
       })
       .catch(err => console.error('Update failed:', err));
-      window.location.reload();
+
   };
 
   const handleSelect = (id) => {
